@@ -28,6 +28,6 @@ public class BinarySearch {
 		int a = sc.nextInt();
 		int l = 0;
 		int h = arr.length-1;
-		System.out.println(binarySearch(arr, l, h, a));
+		System.out.println("Location: "+binarySearch(arr, l, h, a));
 	}
 }
